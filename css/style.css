@@ -1,0 +1,105 @@
+.hidden {
+    display: none;
+}
+
+.bg {
+    height: 100%;
+
+    background-size: cover;
+}
+
+.clock {
+    color: white;
+    font-size: 100pt;
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+}
+
+.quotes {
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+}
+
+.weather {
+    color: white;
+    font-size: 25pt;
+    font-weight: bold;
+    position: absolute;
+    top: 8px;
+    left: 16px;
+}
+
+.login {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+}
+
+.field {
+    color: white;
+    font-size: 20pt;
+    font-weight: bold;
+    width: 250px;
+    height: 32px;
+    display: flex;
+    position: relative;
+}
+
+.field input{
+    height: 100%;
+    width: 100%;
+    padding-left: 45px;
+    font-size: 18px;
+    outline: none;
+    border: none;
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.438);
+    border-radius: 8px;
+    background: rgba(105, 105, 105, 0);
+  }
+
+  .field input::placeholder{
+    color: white;
+  }
+
+  button{
+    width: 50px;
+    color: white;
+    font-size: 10px;
+    border-radius: 8px;
+    background: rgba(105, 105, 105, 0);
+    padding: 5px;
+  }
+
+.login_user {
+    color: white;
+    font-size: 20pt;
+    font-weight: bold;
+    position: absolute;
+    top: 8px;
+    right: 16px;
+    
+}
+
+.todo-input {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+    font-size: 18px;
+  }
+
+.todo-list {
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    position: absolute;
+    bottom: 20px;
+    right: 16px;
+}
